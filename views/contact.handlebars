@@ -24,7 +24,7 @@
     <div class="contact">
       <h3>Email Us</h3>
       {{msg}}
-      <form method="POST" action="send">
+      <form method="POST" action="send" enctype="multipart/form-data">
         <p>
           <label>Name</label>
           <input type="text" name="name">
@@ -40,6 +40,10 @@
         <p>
           <label>Phone Number</label>
           <input type="text" name="phone">
+        </p>
+        <p>
+          <label>Photo</label>
+          <input type="file" name="photo">
         </p>
         <p class="full">
           <label>Message</label>
