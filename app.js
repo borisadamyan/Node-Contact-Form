@@ -70,7 +70,7 @@
      secure: false, // true for 465, false for other ports
      auth: {
        user: 'spy.armenia@gmail.com', // generated ethereal user
-       pass:  '55446606b'// generated ethereal password
+       pass:  '********'// generated ethereal password
      },
      tls:{
        rejectUnauthorized: false
